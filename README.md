@@ -12,21 +12,14 @@ Sleep apnea (SA) is a common sleep disorder that occurs during sleep, leading to
 
 1. Get the pkl file
 - Download the dataset Apnea-ECG Database
-- Run [Preprocessing.py](https://github.com/Bettycxh/SE-MSCNN-A-Lightweight-Multi-scaled-Fusion-Network-for-Sleep-Apnea-Detection-Using-ECG-Signals/blob/main/Preprocessing.py) to get a file named apnea-ecg.pkl
+- Run [Preprocessing.py](Preprocessing.py) to get a file named apnea-ecg.pkl
 
 2. Per-segment classification
-- Run [SE-MSCNN.py](https://github.com/Bettycxh/SE-MSCNN-A-Lightweight-Multi-scaled-Fusion-Network-for-Sleep-Apnea-Detection-Using-ECG-Signals/blob/main/SE-MSCNN.py)
+- Run [MCAFNet.py](MCAFNet.ipynb)
 
 3. Per-recording classification  
-- Run [evaluate.py](https://github.com/Bettycxh/SE-MSCNN-A-Lightweight-Multi-scaled-Fusion-Network-for-Sleep-Apnea-Detection-Using-ECG-Signals/blob/main/utils/code_for_calculating_per-recording/evaluate.py)
-- The performance is shown in [Table 2.csv](https://github.com/Bettycxh/SE-MSCNN-A-Lightweight-Multi-scaled-Fusion-Network-for-Sleep-Apnea-Detection-Using-ECG-Signals/blob/main/utils/code_for_calculating_per-recording/output/Table%202.csv)
-
-
-## Requirements
-Python==3.6
-Keras==2.3.1
-TensorFlow==1.14.0
-
+- Run [evaluate.py](utils/code_for_calculating_per-recording/evaluate.py)
+- The performance is shown in [Table.csv](utils/code_for_calculating_per-recording/output/Table.csv)
 
 ## Cite
 Not yet published
