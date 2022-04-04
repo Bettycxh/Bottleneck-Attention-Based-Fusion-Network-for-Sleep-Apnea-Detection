@@ -6,7 +6,7 @@ from sklearn.metrics import confusion_matrix, roc_auc_score
 
 base_dir = "output"
 
-# Table 2
+# Table
 output = []
 methods = ["SVM", "LR", "KNN", "MLP", "MCAFNet"]
 for method in methods:
@@ -35,5 +35,5 @@ for method in methods:
     acc, sn, sp = 1. * (TP + TN) / (TP + TN + FP + FN), 1. * TP / (TP + FN), 1. * TN / (TN + FP)
     auc = roc_auc_score(all["original"] > 5, all[method])
     result.append([method, acc * 100, sn * 100, sp * 100, auc, corr["original"][method]])
-np.savetxt(os.path.join(base_dir, "Table 2.csv"), result, fmt="%s", delimiter=",", comments="",
+np.savetxt(os.path.join(base_dir, "Table.csv"), result, fmt="%s", delimiter=",", comments="",
            header="Method,Accuracy(%),Sensitivity(%),Specificity(%),AUC,Corr")
