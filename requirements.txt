@@ -1,5 +1,6 @@
-python==3.6
-keras==2.3.1
+Python==3.7.12
+Keras==2.6.0
+TensorFlow 2.6.0
 numpy
 pandas
 scipy
