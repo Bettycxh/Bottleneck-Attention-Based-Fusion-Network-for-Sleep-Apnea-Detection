@@ -8,7 +8,7 @@ base_dir = "output"
 
 # Table 2
 output = []
-methods = ["SVM", "LR", "KNN", "MLP", "SEMSCNN"]
+methods = ["SVM", "LR", "KNN", "MLP", "MCAFNet"]
 for method in methods:
     df = pd.read_csv(os.path.join(base_dir, "%s.csv" % method), header=0)
     df["y_pred"] = df["y_score"] > 0.5
