@@ -26,6 +26,6 @@ Not yet published
   If our work is helpful to you, please cite:   -->
 
 ## Email
-If you have any questions, please email to: [xc2627@nyu.edu](mailto:xc2627@nyu.edu)
+If you have any questions, please email to: [xhchen@nyu.edu](mailto:xhchen@nyu.edu)
 
 
