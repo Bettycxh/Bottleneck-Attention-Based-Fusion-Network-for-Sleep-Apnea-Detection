@@ -15,7 +15,7 @@ Sleep apnea (SA) is a common sleep-related breathing disorder, which tends to in
 - Run [Preprocessing.py](Preprocessing.py) to get a file named apnea-ecg.pkl
 
 2. Per-segment classification
-- Run [BAFNet.py](BAFNet.ipynb)
+- Run [BAFNet.ipynb](BAFNet.ipynb)
 
 3. Per-recording classification  
 - Run [evaluate.py](utils/code_for_calculating_per-recording/evaluate.py)
